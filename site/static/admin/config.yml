@@ -11,8 +11,5 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Name", name: "name", widget: "string"}
-      - label: "Size"
-        name: "size"
-        widget: "select"
-        options: ["Double", "King", "Super King"]
+      - {label: "Size", name: "size", widget: "select", options: ["Double", "King", "Super King"]}
       - {label: "Body", name: "body", widget: "markdown"}
